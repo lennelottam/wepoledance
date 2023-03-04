@@ -3,7 +3,13 @@ padding-top: 54px;
 margin-right: 80px;
 margin-left: 80px;}
 
-img {
-    border-radius: 0.5rem;}
+.img-front {
+    border-radius: 0.5rem;
+    width: 300px;
+    max-height: 200px;
+    background-size: cover }
+
+.reset-style {
+    all: revert; }
   
   
