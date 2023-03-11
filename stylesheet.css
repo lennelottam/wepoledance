@@ -1,15 +1,28 @@
 .container_kastid {
-padding-top: 54px;
-margin-right: 80px;
-margin-left: 80px;}
+    padding-top: 54px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
 
 .img-front {
     border-radius: 0.5rem;
     width: 300px;
     max-height: 200px;
-    background-size: cover }
+    background-size: cover
+}
 
 .reset-style {
-    all: revert; }
-  
-  
+    all: revert;
+}
+
+.bg-img {
+    /* Front page background picture */
+    background-image: url("avalehe_pilt.jpg");
+
+    min-height: 696px;
+    /* Center and scale the image nicely */
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
