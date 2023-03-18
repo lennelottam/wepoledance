@@ -60,3 +60,15 @@ img {
   .bg-img-smaller{
     color: #CBC5B7;
   }
+
+  .bg-img-footer{
+  background-color: #464239;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  }
+
+  .google-map{
+    height: 100%;
+    width: 100%;
+  }
