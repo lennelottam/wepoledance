@@ -90,14 +90,26 @@ img {
   }
 
   .container_picture {
-    padding: 0;
-    margin 0;
-    box-sizing: border-box;
     width:90%;
+    padding 20px;
+    margin-top: 100px auto;
     display:flex;
   }
 
   .box {
     height 320px;
-    
+    padding 20px;
+    font-size: 24px;
+    flex: 1; 
+    transition: 1s;
+  }
+
+  .box:hover{
+    flex: 2;
+    box-shadow: #000;
+  }
+
+  .box img{
+    display: block;
+    width: 100%;
   }
