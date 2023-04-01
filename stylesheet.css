@@ -101,7 +101,6 @@ img {
   .container_picture .box {
     position: relative;
     height: 320px;
-    padding: 20px;
     font-size: 24px;
     flex: 1; 
     transition: 1s;
