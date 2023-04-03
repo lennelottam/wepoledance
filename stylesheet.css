@@ -127,4 +127,8 @@ img {
     transition: 0.5s;
   }
   
-  
+  .google-map iframe {
+    width: 575px;
+    height: 320px;
+    align-items: center;
+  }
